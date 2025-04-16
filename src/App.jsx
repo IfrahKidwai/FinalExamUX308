@@ -1,12 +1,12 @@
-import {Question1, Question2} from './components.jsx';
+// App.jsx
+import TestComponents from './components.jsx';
 
 function App() {
   return (
-    <>
-        <Question1 />   
-        <Question2 /> 
-    </>
-  )
+    <div>
+      <TestComponents />
+    </div>
+  );
 }
 
-export default App
+export default App;
